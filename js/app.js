@@ -94,7 +94,7 @@ const DisplayModalDetails = (modal)=>{
             <span>${modal?.accuracy?.score*100}</span>% accuracy</span>
          </button>`
     }else{
-        acc = ""
+        acc = ""  
     }
 
     modalDiv.innerHTML = `
