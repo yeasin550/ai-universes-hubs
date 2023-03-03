@@ -1,8 +1,5 @@
 
-const showAllBtn = document.getElementById("see-all");
-const apiContainer = document.getElementById('api-container');
-const spinner = document.getElementById('spinner');
-const sortByDate = document.getElementById('sort-by-date');
+
 
 const loadAi = (limit, shouldSort = false) =>{
     spinner.classList.remove("d-none");
@@ -173,3 +170,7 @@ showAllBtn.addEventListener('click', () => {
     loadAi(12)
 })
 
+sortByDate.addEventListener('click', () => {
+    apiContainer.innerText = "";
+    loadAi(12, true)
+})
