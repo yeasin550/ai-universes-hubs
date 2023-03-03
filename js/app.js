@@ -173,7 +173,3 @@ showAllBtn.addEventListener('click', () => {
     loadAi(12)
 })
 
-sortByDate.addEventListener('click', () => {
-    apiContainer.innerText = "";
-    loadAi(12, true)
-})
