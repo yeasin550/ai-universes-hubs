@@ -1,5 +1,8 @@
 
-
+const showAllBtn = document.getElementById("see-all");
+const apiContainer = document.getElementById('api-container');
+const spinner = document.getElementById('spinner');
+const sortByDate = document.getElementById('sort-by-date');
 
 const loadAi = (limit, shouldSort = false) =>{
     spinner.classList.remove("d-none");
