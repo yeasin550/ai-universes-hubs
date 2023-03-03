@@ -27,7 +27,7 @@ const displayAi = (data, limit)=>{
         showAllBtn.classList.add("d-none")    }
 
     data.slice(0, limit).forEach(singleApi =>{
-         
+         console.log(singleApi)
 
     // apiContainer.innerHTML = '';
     // display all card 
