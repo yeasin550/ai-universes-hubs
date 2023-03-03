@@ -1,5 +1,6 @@
 
 
+const apiContainer = document.getElementById('api-container');
 const spinner = document.getElementById('spinner');
 const sortByDate = document.getElementById('sort-by-date');
 
